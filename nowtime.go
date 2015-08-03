@@ -14,4 +14,5 @@ func main(){
         time.Sleep(100 * time.Millisecond)
         fmt.Println("Hello")
     }
+    fmt.Println("The time is", time.Now().Hour(),":" ,time.Now().Minute())
 }
