@@ -13,6 +13,8 @@ func main(){
             fmt.Println("OS X")
         case "linux":
             fmt.Println("Linux");
+        case "windows":
+            fallthrough
         default:
             fmt.Printf("%s" , os);
     }
