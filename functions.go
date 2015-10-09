@@ -2,13 +2,11 @@ package main
 
 import (
     "fmt"
-    "math"
 )
 
-func main(){
-    fun := func(x,y float64) float64 {
-        return math.Sqrt(x*x + y*y)
-    }
-
-    fmt.Println(fun(6,8))
+func sum(a , b int) int {
+    return a + b
+}
+func main() {      
+    fmt.Println(sum(6,8))
 }
